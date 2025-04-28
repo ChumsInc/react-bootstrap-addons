@@ -70,17 +70,17 @@
   "overrides": {
     "eslint": "^9.8.0"
   },
-  "description": "A sortable table module package for Chums, Inc.",
+  "description": "A couple of addons for react-bootstrap  for Chums, Inc.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChumsInc/sortable-tables.git"
+    "url": "git+https://github.com/ChumsInc/react-bootstrap-addons.git"
   },
   "author": "Steve Montgomery",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChumsInc/sortable-tables/issues"
+    "url": "https://github.com/ChumsInc/react-bootstrap-addons/issues"
   },
-  "homepage": "https://github.com/ChumsInc/sortable-tables#readme",
+  "homepage": "https://github.com/ChumsInc/react-bootstrap-addons#readme",
   "directories": {
     "test": "test"
   },
