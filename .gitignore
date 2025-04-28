@@ -1,7 +1,7 @@
-/node_modules
-/.idea
-/public/js
-/public/*/.sass-cache
-
 # Project exclude paths
-/dist/
+/node_modules/
+/.idea
+/public/.sass-cache
+/public/js
+*.map
+*.css
