@@ -1,0 +1,90 @@
+{
+  "name": "@chumsinc/react-bootstrap-addons",
+  "version": "2.0.0",
+  "main": "./dist/index.js",
+  "source": "./src/index.tsx",
+  "types": "./dist/index.d.ts",
+  "peerDependencies": {
+    "@emotion/styled": "^11.14.0",
+    "classnames": "*",
+    "react": ">=18.1.0",
+    "react-dom": ">=18.1.0",
+    "react-bootstrap": "^2.10.9"
+  },
+  "scripts": {
+    "clean": "rimraf dist/",
+    "compile": "tsc",
+    "dev": "webpack serve --config webpack.dev.mjs --progress",
+    "build": "npm run clean && npm run compile",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@emotion/styled": "^11.14.0",
+    "@eslint/js": "^9.8.0",
+    "@types/node": "^22.1.0",
+    "@types/numeral": "^2.0.3",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "auto-changelog": "^2.4.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.1",
+    "classnames": "^2.3.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "globals": "^16.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rimraf": "^6.0.1",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "typescript-eslint": "^8.0.1",
+    "webpack": "^5.88.2",
+    "webpack-bundle-analyzer": "^4.9.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.0.4",
+    "webpack-manifest-plugin": "^5.0.0",
+    "webpack-merge": "^6.0.1"
+  },
+  "auto-changelog": {
+    "template": "changelog-template.hbs",
+    "unreleased": true,
+    "commitLimit": false,
+    "breakingPattern": "BREAKING CHANGE:"
+  },
+  "overrides": {
+    "eslint": "^9.8.0"
+  },
+  "description": "A sortable table module package for Chums, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChumsInc/sortable-tables.git"
+  },
+  "author": "Steve Montgomery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChumsInc/sortable-tables/issues"
+  },
+  "homepage": "https://github.com/ChumsInc/sortable-tables#readme",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "Bootstrap"
+  ]
+}
