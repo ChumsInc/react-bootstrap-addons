@@ -8,8 +8,8 @@
     "@emotion/styled": "^11.14.0",
     "classnames": "*",
     "react": ">=18.1.0",
-    "react-dom": ">=18.1.0",
-    "react-bootstrap": "^2.10.9"
+    "react-bootstrap": "^2.10.9",
+    "react-dom": ">=18.1.0"
   },
   "scripts": {
     "clean": "rimraf dist/",
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@emotion/styled": "^11.14.0",
     "@eslint/js": "^9.8.0",
-    "@types/node": "^22.1.0",
+    "@types/node": "^24.3.1",
     "@types/numeral": "^2.0.3",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
